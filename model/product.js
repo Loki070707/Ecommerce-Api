@@ -6,6 +6,7 @@ const productSchema = new mongoose.Schema({
   name: String,
   description: String,
   price: Number,
+  quantity: Number,
 });
 //creting a new model called "product"
 
